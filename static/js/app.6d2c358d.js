@@ -4993,7 +4993,7 @@
 						{
 							return e.handleLogoClick && e.handleLogoClick.apply(e, arguments)
 						})
-					}, [e.themeConfig.site.author ? (Object(a["A"])(), Object(a["g"])("span", L, Object(a["M"])(e.themeConfig.site.author), 1)) : (Object(a["A"])(), Object(a["g"])("span", Z, "Ryan璃黯")), Object(a["j"])("span", A, Object(a["M"])(e.themeConfig.site.nick || "小小原子核的个人博客"), 1)]), Object(a["j"])("img",
+					}, [e.themeConfig.site.author ? (Object(a["A"])(), Object(a["g"])("span", L, Object(a["M"])(e.themeConfig.site.author), 1)) : (Object(a["A"])(), Object(a["g"])("span", Z, "Ryan璃黯")), Object(a["j"])("span", A, Object(a["M"])(e.themeConfig.site.nick || "IN ME THE TIGER SNIFFS THE ROSE."), 1)]), Object(a["j"])("img",
 					{
 						class: "logo-image",
 						src: e.themeConfig.site.logo || e.themeConfig.site.avatar,
