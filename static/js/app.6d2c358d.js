@@ -908,12 +908,12 @@
 					a = {
 						en:
 						{
-							seconds: "just seconds ago",
-							minutes: " minutes ago",
-							hours: " hours ago",
-							days: " days ago",
-							months: " months ago",
-							years: " years ago"
+							seconds: "刚刚",
+							minutes: "分钟前",
+							hours: "小时前",
+							days: "天前",
+							months: "个月前",
+							years: "年前"
 						},
 						cn:
 						{
@@ -1165,7 +1165,7 @@
 						value: function(e)
 						{
 							var t = {
-								en: "commented [TIME]",
+								en: "[TIME]评论了",
 								cn: "[TIME]评论了"
 							};
 							this.created_at = he(this.created_at,
@@ -1196,7 +1196,7 @@
 							},
 							gravatarConfig:
 							{
-								cdn: "https://www.gravatar.com/avatar",
+								cdn: "https://cravatar.cn/avatar",
 								ds: ["mp", "identicon", "monsterid", "wavatar", "robohash", "retro", ""],
 								params: "",
 								url: ""
@@ -1259,10 +1259,10 @@
 							this.configs.leanCloudConfig.admin = c, this.configs.leanCloudConfig.lang = l, this.configs.gravatarConfig.params = "?d=".concat(t.indexOf(a) > -1 ? a : "mp", "&v=")
 								.concat(Oe);
 							var u = {
-								en: "https://www.gravatar.com/avatar",
-								ja: "https://www.gravatar.com/avatar",
+								en: "https://cravatar.cn/avatar",
+								ja: "https://cravatar.cn/avatar",
 								"zh-CN": "https://cravatar.cn/avatar/",
-								"zh-TW": "https://www.gravatar.com/avatar"
+								"zh-TW": "https://cravatar.cn/avatar"
 							};
 							this.configs.gravatarConfig.cdn = /^https?:\/\//.test(r) ? r : u[String(this.configs.leanCloudConfig.lang)] ? u[String(this.configs.leanCloudConfig.lang)] : u["en"], this.configs.gravatarConfig.url = this.configs.gravatarConfig.cdn + this.configs.gravatarConfig.params
 						}
@@ -1397,7 +1397,7 @@
 						value: function(e)
 						{
 							var t = {
-								en: "commented [TIME]",
+								en: "[TIME]评论了",
 								cn: "[TIME]评论了"
 							};
 							this.created_at = he(this.created_at,
