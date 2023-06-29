@@ -1261,7 +1261,7 @@
 							var u = {
 								en: "https://www.gravatar.com/avatar",
 								ja: "https://www.gravatar.com/avatar",
-								"zh-CN": "https://gravatar.loli.net/avatar/",
+								"zh-CN": "https://cravatar.cn/avatar/",
 								"zh-TW": "https://www.gravatar.com/avatar"
 							};
 							this.configs.gravatarConfig.cdn = /^https?:\/\//.test(r) ? r : u[String(this.configs.leanCloudConfig.lang)] ? u[String(this.configs.leanCloudConfig.lang)] : u["en"], this.configs.gravatarConfig.url = this.configs.gravatarConfig.cdn + this.configs.gravatarConfig.params
