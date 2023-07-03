@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.璃黯.eu.org/link/index.html</loc>
-    
-    <lastmod>2023-07-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.璃黯.eu.org/music/index.html</loc>
     
     <lastmod>2023-07-03</lastmod>
@@ -21,6 +12,15 @@
   
   <url>
     <loc>https://blog.璃黯.eu.org/tags/index.html</loc>
+    
+    <lastmod>2023-07-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.璃黯.eu.org/link/index.html</loc>
     
     <lastmod>2023-07-03</lastmod>
     
@@ -173,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://blog.璃黯.eu.org/2023/06/28/solve-problems-in-contests/</loc>
+    <loc>https://blog.璃黯.eu.org/2023/05/14/poem-named-The-Letter/</loc>
     
     <lastmod>2023-07-03</lastmod>
     
@@ -182,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://blog.璃黯.eu.org/2023/05/14/poem-named-The-Letter/</loc>
+    <loc>https://blog.璃黯.eu.org/2023/06/28/solve-problems-in-contests/</loc>
     
     <lastmod>2023-07-03</lastmod>
     
